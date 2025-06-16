@@ -54,11 +54,19 @@
     margin-top: 5px;
     margin-bottom: 5px;
   }
+  .centered-image {
+    display: block;        /* makes the image behave like a block element */
+    margin-left: auto;     /* auto margin on the left... */
+    margin-right: auto;    /* ... and on the right centers the block */
+    max-width: 100%;       /* prevents it from overflowing the page on small screens */
+    height: auto;          /* keeps aspect ratio */
+  }
   </style>
 </head>
 <body>
   <h1>MEGATON RADIO</h1>
   <h2>Now broadcasting all the songs you dont like, live in Team Fortress 2</h2>
+  <img src="graph.png" alt="Players React Stats" class="centered-image">
   <p>This website isnt operational yet. Please come back at a later date.</p>
 </body>
 </html>
